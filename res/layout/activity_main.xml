@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.derrickngatia.reviseuploader.MainActivity"
+    android:orientation="vertical">
+<Spinner
+    android:layout_width="fill_parent"
+    android:id="@+id/myspinner"
+    android:layout_height="wrap_content">
+
+</Spinner>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed1"
+        android:hint="unit name"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed2"
+        android:hint="unit name"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed3"
+        android:hint="unitcode"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed4"
+        android:hint="year"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed5"
+        android:hint="semester"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:id="@+id/myimage"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.63" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter item name"
+        android:id="@+id/imageName"/>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/choose"
+            android:text="choose"/>
+        <Button
+            android:layout_gravity="bottom|right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/submit"
+            android:text="submit"/>
+
+
+    </TableRow>
+
+
+</LinearLayout>
